@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Diş Kahramanı",
+    "slug": "dis-kahramani",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0077B6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smilehero.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0077B6"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.smilehero.app",
+      "versionCode": 1,
+      "permissions": [
+        "NOTIFICATIONS",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#0077B6"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dis-kahramani"
+      }
+    }
+  }
+}
